@@ -1,0 +1,16 @@
+﻿[*.cs]
+
+# Default severity for analyzer diagnostics with category 'Usage'
+dotnet_analyzer_diagnostic.category-Usage.severity = none
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = none
+
+# SYSLIB0023: Type or member is obsolete
+dotnet_diagnostic.SYSLIB0023.severity = none
+
+# CS1998: Async method lacks 'await' operators and will run synchronously
+dotnet_diagnostic.CS1998.severity = none
+
+# CS0108: Member hides inherited member; missing new keyword
+dotnet_diagnostic.CS0108.severity = none
